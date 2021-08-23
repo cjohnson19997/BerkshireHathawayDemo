@@ -1,0 +1,227 @@
+{
+  "format": 1,
+  "restore": {
+    "X:\\Christopher Johnson\\Documents\\GitHub\\BerkshireHathaway\\BerkshireHathaway\\BerkshireHathawayTest\\BerkshireHathawayTest.csproj": {}
+  },
+  "projects": {
+    "X:\\Christopher Johnson\\Documents\\GitHub\\BerkshireHathaway\\BerkshireHathaway\\BerkshireHathawayIO\\BerkshireHathawayIO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "X:\\Christopher Johnson\\Documents\\GitHub\\BerkshireHathaway\\BerkshireHathaway\\BerkshireHathawayIO\\BerkshireHathawayIO.csproj",
+        "projectName": "BerkshireHathawayIO",
+        "projectPath": "X:\\Christopher Johnson\\Documents\\GitHub\\BerkshireHathaway\\BerkshireHathaway\\BerkshireHathawayIO\\BerkshireHathawayIO.csproj",
+        "packagesPath": "C:\\Users\\Christopher Johnson\\.nuget\\packages\\",
+        "outputPath": "X:\\Christopher Johnson\\Documents\\GitHub\\BerkshireHathaway\\BerkshireHathaway\\BerkshireHathawayIO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Christopher Johnson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.114.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "X:\\Christopher Johnson\\Documents\\GitHub\\BerkshireHathaway\\BerkshireHathaway\\BerkshireHathawayTest\\BerkshireHathawayTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "X:\\Christopher Johnson\\Documents\\GitHub\\BerkshireHathaway\\BerkshireHathaway\\BerkshireHathawayTest\\BerkshireHathawayTest.csproj",
+        "projectName": "BerkshireHathawayTest",
+        "projectPath": "X:\\Christopher Johnson\\Documents\\GitHub\\BerkshireHathaway\\BerkshireHathaway\\BerkshireHathawayTest\\BerkshireHathawayTest.csproj",
+        "packagesPath": "C:\\Users\\Christopher Johnson\\.nuget\\packages\\",
+        "outputPath": "X:\\Christopher Johnson\\Documents\\GitHub\\BerkshireHathaway\\BerkshireHathaway\\BerkshireHathawayTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Christopher Johnson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "X:\\Christopher Johnson\\Documents\\GitHub\\BerkshireHathaway\\BerkshireHathaway\\BerkshireHathaway\\BerkshireHathaway.csproj": {
+                "projectPath": "X:\\Christopher Johnson\\Documents\\GitHub\\BerkshireHathaway\\BerkshireHathaway\\BerkshireHathaway\\BerkshireHathaway.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "X:\\Christopher Johnson\\Documents\\GitHub\\BerkshireHathaway\\BerkshireHathaway\\BerkshireHathaway\\BerkshireHathaway.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "X:\\Christopher Johnson\\Documents\\GitHub\\BerkshireHathaway\\BerkshireHathaway\\BerkshireHathaway\\BerkshireHathaway.csproj",
+        "projectName": "BerkshireHathaway",
+        "projectPath": "X:\\Christopher Johnson\\Documents\\GitHub\\BerkshireHathaway\\BerkshireHathaway\\BerkshireHathaway\\BerkshireHathaway.csproj",
+        "packagesPath": "C:\\Users\\Christopher Johnson\\.nuget\\packages\\",
+        "outputPath": "X:\\Christopher Johnson\\Documents\\GitHub\\BerkshireHathaway\\BerkshireHathaway\\BerkshireHathaway\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Christopher Johnson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "X:\\Christopher Johnson\\Documents\\GitHub\\BerkshireHathaway\\BerkshireHathaway\\BerkshireHathawayIO\\BerkshireHathawayIO.csproj": {
+                "projectPath": "X:\\Christopher Johnson\\Documents\\GitHub\\BerkshireHathaway\\BerkshireHathaway\\BerkshireHathawayIO\\BerkshireHathawayIO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.114.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

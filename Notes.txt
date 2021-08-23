@@ -1,0 +1,50 @@
+Saturday 8/21
+Completed Command Line application accepting user input Reasons one at a time or loaded from a file.
+Testing layer added for some of the core functions and user input fails
+Persistance layer is entirely text file based.
+
+Notes for issues
+failed menu item select   
+give error then display menu
+menu command
+
+Fail safe checks 
+supported file type check
+uppercase input
+invalid input for sub inputs
+
+Design Notes
+change storage to DB?
+Text File source
+Date Added
+
+ADD UI?
+Windows popups with User / Date /   ect
+
+
+Sunday 8/22
+Decided to add a database layer.
+SQLite took a little longer to set up the way I originally went around doing it.
+Got SQLite to run in the Project package so DB can be spun up on initial start up with Main arguments.
+Transitioned Persistence layer to DB rather than text file. 
+Kept the Text file load functionality.
+Finished Testing layer to trouble shoot SQL issues and check some input security.
+
+
+*this version of SQLite did not support foreign keys which is unfortunate.
+
+Future State
+Would like to have time for a UI layer but SQL took a bit longer than i had hoped.
+Query reasons by user would be nice.
+Sustained User log in to remove User checks.
+Bulk adding of reasons from different users.
+Entity framework input to DB.
+
+Need to move the SQLDatabase info to config.
+Need to set up test files to be useful outside of development setting.
+
+Missing controls for missing files and other issues with file typing of input files.
+
+
+
+

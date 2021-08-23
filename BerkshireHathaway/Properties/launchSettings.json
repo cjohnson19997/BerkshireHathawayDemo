@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "BerkshireHathaway": {
+      "commandName": "Project",
+      "commandLineArgs": "init"
+    }
+  }
+}
